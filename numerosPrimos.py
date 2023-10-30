@@ -16,6 +16,6 @@ def is_prime(n):
     return True
 
 # Testa a função de 1 a 100
-for num in range(1, 101):
+for num in range(1, 100):
     if is_prime(num):
         print(f"{num} é primo.")
